@@ -27,6 +27,7 @@ public class heapsort {
 		
 		int defaultSize = 5;
 		
+		//apply comparator that works opposite as default
 		PriorityQueue<Integer> maxHeap = new PriorityQueue<Integer>(defaultSize, new Comparator<Integer>(){
 			public int compare(Integer l, Integer r){
 				if(l < r) return 1;
