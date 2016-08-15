@@ -28,8 +28,6 @@ public class test {
 		Arrays.sort(copy3);
 		mergesort.sort(nums3);
 		assertTrue(Arrays.equals(nums3,copy3));
-		
-		//recall
 
 	}
 
